@@ -1,0 +1,28 @@
+.todo {
+  // .todo__title
+
+  &__title {
+    text-align: center;
+    line-height: 1;
+    font-size: 3rem;
+    margin: 0px 0px 0.5em 0px;
+  }
+
+  // .todo__subtitle
+
+  &__subtitle {
+    line-height: 1;
+    font-size: 2rem;
+    margin: 0px 0px 0.3em 0px;
+  }
+
+  // .todo__info
+
+  &__info {
+  }
+
+  // .todo__lists
+
+  &__lists {
+  }
+}

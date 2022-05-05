@@ -1,0 +1,7 @@
+<ng-container *ngIf="todo$ | async; else load">
+  <ng-content></ng-content>
+</ng-container>
+
+<ng-template #load>
+  <mat-spinner></mat-spinner>
+</ng-template>

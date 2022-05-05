@@ -1,0 +1,31 @@
+<mat-card class="todo-item">
+  <mat-card-title class="todo-item__title title-item">
+    <div class="title-item__text">
+      {{ item.title }}
+    </div>
+    <div class="title-item__remove">
+      <button
+        color="warn"
+        mat-icon-button
+        matTooltip="Delete"
+        (click)="onClickDeleteButton()"
+      >
+        <mat-icon> close </mat-icon>
+      </button>
+    </div>
+  </mat-card-title>
+  <mat-card-content class="todo-item__content">
+    <div class="todo-item__block-info block-info">
+      <span class="block-info__title">User id: </span>
+      <span class="block-info__value">
+        {{ item.userId }}
+      </span>
+    </div>
+    <div class="todo-item__block-info block-info">
+      <span class="block-info__title">Completed: </span>
+      <span class="block-info__value">
+        {{ item.completed }}
+      </span>
+    </div>
+  </mat-card-content>
+</mat-card>

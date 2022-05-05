@@ -1,0 +1,14 @@
+<div class="todo-info">
+  <div class="todo-info__item item-info">
+    <span class="item-info__title">All Todo: </span>
+    <span class="item-info__value">{{ todoLength$ | async }}</span>
+  </div>
+  <div class="todo-info__item item-info">
+    <span class="item-info__title">Completed Todo: </span>
+    <span class="item-info__value">{{ todoCompletedLength$ | async }}</span>
+  </div>
+  <div class="todo-info__item item-info">
+    <span class="item-info__title">Un completed Todo: </span>
+    <span class="item-info__value">{{ todoUnCompletedLength$ | async }}</span>
+  </div>
+</div>

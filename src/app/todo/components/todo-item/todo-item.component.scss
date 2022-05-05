@@ -1,0 +1,51 @@
+.todo-item {
+  // .todo-item__title
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    flex-grow: 1;
+    line-height: 1;
+  }
+
+  // .todo-item__content
+
+  &__content {
+  }
+
+  // .todo-item__block-info
+
+  &__block-info {
+  }
+}
+
+.title-item {
+  // .title-item__text
+  display: flex;
+  align-items: center;
+
+  &__text {
+    flex-grow: 1;
+  }
+
+  // .title-item__remove
+
+  &__remove {
+    align-self: flex-start;
+  }
+}
+
+.block-info {
+  // .block-info__title
+
+  &__title {
+    font-size: 1.2rem;
+  }
+
+  // .block-info__value
+
+  &__value {
+    font-size: 1.01rem;
+  }
+}

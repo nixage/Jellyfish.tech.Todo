@@ -1,4 +1,12 @@
-@import './assets/scss/null.scss';
+@import "./assets/scss/null.scss";
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font: 400 14px/20px Roboto, "Helvetica Neue", sans-serif;
+  letter-spacing: normal;
+  background-color: #fafafa;
+}
